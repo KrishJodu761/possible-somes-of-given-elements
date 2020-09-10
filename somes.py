@@ -14,4 +14,4 @@ def subset_sum(numbers, target, partial=[]):
 
 numbers=list(map(int,input("Enter elements: ").split(" ")))
 target=input("Enter target number: ")
-print(subset_sum(numbers,50))
+print(subset_sum(numbers,target))
