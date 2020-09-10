@@ -13,5 +13,5 @@ def subset_sum(numbers, target, partial=[]):
         subset_sum(remaining, target, partial + [n]) 
 
 numbers=list(map(int,input("Enter elements: ").split(" ")))
-target=input("Enter target number: ")
+target=int(input("Enter target number: "))
 print(subset_sum(numbers,target))
